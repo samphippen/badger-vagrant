@@ -1,7 +1,7 @@
 #Badger Vagrant
 
 Badger is the new [Student Robotics](http://studentrobotics.org) server. This
-is a vagrant configuration that will very easil go from scratch to a vagrantbox.
+is a vagrant configuration that will very easily go from scratch to a vagrantbox.
 
 ##Setup
 
