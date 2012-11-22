@@ -8,7 +8,7 @@ is a vagrant configuration that will very easil go from scratch to a vagrantbox.
 1. Install ruby 1.9.3 or greater [RVM might help](https://rvm.io/rvm/install/)
 2. Install virtualbox
 3. `gem install vagrant`
-4. `git clone https://github.com/samphippen/badger-vagrant`
+4. `git clone https://github.com/samphippen/badger-vagrant && cd badger-vagrant`
 5. `vagrant up --provision`
 6. Wait about 20 minutes
 7. `vagrant ssh` to log into the box. You have passwordless sudo from the
