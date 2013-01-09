@@ -7,11 +7,15 @@ is a vagrant configuration that will very easily go from scratch to a vagrantbox
 
 1. Install ruby 1.9.3 or greater [RVM might help](https://rvm.io/rvm/install/)
 2. Install virtualbox
-3. `gem install vagrant`
-4. `git clone https://github.com/samphippen/badger-vagrant && cd badger-vagrant`
-5. `vagrant up --provision`
-6. Wait about 20 minutes
-7. `vagrant ssh` to log into the box. You have passwordless sudo from the
+3. You'll need the ruby development headers. On Fedora it's `yum install
+   ruby-devel` on debian-like (including ubuntu) it's `apt-get install
+   ruby-dev`.
+4. `gem install vagrant`
+5. `git clone https://github.com/samphippen/badger-vagrant && cd
+   badger-vagrant`
+6. `vagrant up --provision`
+7. Wait about 20 minutes
+8. `vagrant ssh` to log into the box. You have passwordless sudo from the
    vagrant user to root. In case you need to know the password it's 'vagrant'
 
 
