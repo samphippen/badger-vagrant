@@ -8,8 +8,8 @@ is a vagrant configuration that will very easily go from scratch to a vagrantbox
 1. Install ruby 1.9.3 or greater [RVM might help](https://rvm.io/rvm/install/)
 2. Install virtualbox
 3. You'll need the ruby development headers. On Fedora it's `yum install
-   ruby-devel` on debian-like (including ubuntu) it's `apt-get install
-   ruby-dev`.
+   ruby-devel libffi-devel` on debian-like (including ubuntu) it's `apt-get
+   install ruby-dev libffi-dev`.
 4. `gem install vagrant`
 5. `git clone https://github.com/samphippen/badger-vagrant && cd
    badger-vagrant`
