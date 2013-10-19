@@ -31,3 +31,5 @@ is built, and also does a bunch of other necessary configuration.
 The virtual machine is networked into your computer via NAT. Every port on
 the machine is mapped to 5000 + actual port (e.g. 5080,5443,5022). This
 allows you to ssh in
+
+**You almost certainly want 5443 as the server is set to default to ssl**.
