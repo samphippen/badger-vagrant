@@ -13,7 +13,7 @@ sed -i "s/SELINUX=.*/SELINUX=disabled/" /etc/selinux/config
 wget --no-check-certificate https://localhost -O /dev/null
 if [ $? ]
 then
-    echo "Server configured successfully!"
-else
     echo "Server configuration went wrong :("
+else
+    echo "Server configured successfully!"
 fi
