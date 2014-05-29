@@ -20,7 +20,7 @@ testing that things on it work, or just playing around to see how it works.
 5. Wait about 20 minutes
 6. Run `vagrant ssh` to log into the box. You have passwordless sudo from the
    vagrant user to root. In case you need to know the password it's 'vagrant'.
-7. Point your browser at https://localhost:5443 to see the website the VM is hosting.
+7. Point your browser at <https://localhost:5443> to see the website the VM is hosting.
 
 ##Some details
 
@@ -36,4 +36,4 @@ the machine is mapped to 5000 + actual port (e.g. 5080,5443,5022) on the host.
 This allows you to ssh in via `ssh -p 5022 vagrant@localhost`.
 
 To view the website hosted by your badger clone, point your browser to:
-https://localhost:5443.
+<https://localhost:5443>.
