@@ -1,5 +1,5 @@
 #!/bin/bash
-yum -y install git ruby-ldap
+yum -y install git ruby-ldap puppet
 git clone git://studentrobotics.org/server/dummy-secrets.git /srv/secrets
 myname=`hostname`
 sed -i "s/localhost/$myname/" /srv/secrets/common.csv

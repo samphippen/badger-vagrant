@@ -2,7 +2,7 @@
 
 Badger is the [Student Robotics](http://studentrobotics.org) server.
 It hosts the majority of SR's services (you can find out more at
-https://www.studentrobotics.org/trac/wiki/Servers#badgeronlinode.com).
+https://www.studentrobotics.org/trac/wiki/Servers#saffrononlinode.com).
 
 This repo contains configuration files needed to create your own copy
 of the server. This can be used for trying out changes to its configuration,
