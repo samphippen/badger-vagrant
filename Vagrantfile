@@ -17,5 +17,6 @@ Vagrant::Config.run do |config|
 
   config.vm.forward_port 80,5080
   config.vm.forward_port 443,5443
+  config.vm.forward_port 389,5389
   config.vm.forward_port 22,5022
 end
