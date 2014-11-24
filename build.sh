@@ -3,9 +3,7 @@ yum -y install git ruby-ldap
 git clone git://studentrobotics.org/server/dummy-secrets.git /srv/secrets
 sed -i "s/cringe/localhost/" /srv/secrets/common.csv
 rm -rf /etc/puppet
-git clone git://studentrobotics.org/server/puppet.git /etc/puppet
-cd /etc/puppet && git submodule init
-cd /etc/puppet && git submodule update
+git clone --recursive git://studentrobotics.org/server/puppet.git /etc/puppet
 puppet apply /etc/puppet/manifests/sr-dev.pp
 puppet_ret=$?
 setenforce 0
