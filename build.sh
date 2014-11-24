@@ -1,7 +1,8 @@
 #!/bin/bash
 yum -y install git ruby-ldap
 git clone git://studentrobotics.org/server/dummy-secrets.git /srv/secrets
-sed -i "s/cringe/localhost/" /srv/secrets/common.csv
+myname=`hostname`
+sed -i "s/localhost/$myname/" /srv/secrets/common.csv
 rm -rf /etc/puppet
 git clone --recursive git://studentrobotics.org/server/puppet.git /etc/puppet
 puppet apply /etc/puppet/manifests/sr-dev.pp
