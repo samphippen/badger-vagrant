@@ -8,7 +8,7 @@ Vagrant::Config.run do |config|
 
   # Every Vagrant virtual environment requires a box to build off of.
   # Fedora 20 x64, from https://vagrantcloud.com/chef/boxes/fedora-20
-  config.vm.box = chef/fedora-20
+  config.vm.box = "chef/fedora-20"
 
   config.vm.provision :shell, :path => "build.sh"
 
