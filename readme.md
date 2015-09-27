@@ -1,8 +1,14 @@
 #Badger Vagrant
 
-Badger is the [Student Robotics](http://studentrobotics.org) server.
-It hosts the majority of SR's services (you can find out more at
-https://www.studentrobotics.org/trac/wiki/Servers#badgeronlinode.com).
+Badger was a previous [Student Robotics](http://studentrobotics.org) server.
+
+This repo has since also been used for its replacement 'saffron', but has
+since been retired in favour of a Vagrantfile in the root of the puppet repo.
+
+The current state of SR's server config is available at
+https://www.studentrobotics.org/trac/wiki/Servers.
+
+If you still want to setup a copy of badger, read on..
 
 This repo contains configuration files needed to create your own copy
 of the server. This can be used for trying out changes to its configuration,
